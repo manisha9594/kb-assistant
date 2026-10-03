@@ -4,7 +4,13 @@ Upload policies, manuals, and reports, then ask questions in plain English. A **
 
 Built to drop into any domain: legal teams querying contracts, hospitals querying protocols, banks querying compliance docs, support teams querying knowledge bases. The demo ships with sample HR, IT security, and expense policies for a fictional company.
 
-> **Live demo:** _add link_ · **Screenshot:** _add `docs/screenshot.png`_
+![Knowledge Assistant: sample documents in the sidebar and suggested questions](docs/screenshot.png)
+
+<details>
+<summary>Dark mode</summary>
+
+![Knowledge Assistant in dark mode](docs/screenshot-dark.png)
+</details>
 
 ## Highlights
 

@@ -100,7 +100,7 @@ export default function Sidebar({ docs, onChange, onNewChat }: Props) {
             return (
               <li key={d.filename}>
                 <span className={`filetype filetype-${ext}`}>{ext}</span>
-                <span className="doc-name">
+                <span className="doc-name" title={d.filename}>
                   {d.filename}
                   <small>
                     {d.pages} page{d.pages === 1 ? "" : "s"} · {d.chunks} chunk{d.chunks === 1 ? "" : "s"}

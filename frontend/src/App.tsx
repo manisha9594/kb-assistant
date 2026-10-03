@@ -45,7 +45,9 @@ export default function App() {
     listDocuments().then(setDocs).catch(() => setDocs([]));
   }, []);
   useEffect(refreshDocs, [refreshDocs]);
-  useEffect(() => endRef.current?.scrollIntoView({ behavior: "smooth" }), [messages]);
+  useEffect(() => {
+    endRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
   useEffect(() => {
     if (busy) return;
     try {

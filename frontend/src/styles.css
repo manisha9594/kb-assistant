@@ -37,8 +37,8 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .status.error { color: var(--danger); }
 .docs { list-style: none; padding: 0; margin: 0; }
 .docs li { display: flex; align-items: center; gap: 10px; padding: 10px 0;
-  border-bottom: 1px solid var(--rule); font-size: .88rem; word-break: break-word; }
-.doc-name { flex: 1; min-width: 0; }
+  border-bottom: 1px solid var(--rule); font-size: .88rem; }
+.doc-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .filetype { flex: none; width: 38px; text-align: center; font-size: .66rem; font-weight: 600; text-transform: uppercase;
   padding: 4px 0; border-radius: 6px; background: var(--paper); color: var(--muted); border: 1px solid var(--rule); }
 .filetype-pdf { background: #fde8e7; color: #9a2a20; border-color: transparent; }
